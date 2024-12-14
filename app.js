@@ -18,6 +18,10 @@ const PORT = process.env.PORT || 3000;
 njk.configure('views', { autoescape: true, express: app });
 app.set('view engine', 'html');
 
+// Setup the public resources directory to serve css, js, and
+// other static resources
+app.use(express.static('./public'));
+
 // Set a temporary homepage route that returns a Hello world message
 app.get('/', (req, res) => {
     res.json({

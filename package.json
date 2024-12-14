@@ -14,7 +14,7 @@
     "homepage": "https://github.com/shzdehmd/cs50x-final-project",
     "license": "MIT",
     "main": "app.js",
-    "name": "calisthenics-tracker",
+    "name": "expense-tracker",
     "private": true,
     "scripts": {
         "start": "node .",
