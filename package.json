@@ -4,7 +4,11 @@
         "name": "Ahmad Shahzad",
         "url": "https://shahzad.dev"
     },
-    "dependencies": {},
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "nunjucks": "^3.2.4"
+    },
     "description": "A calisthenics routine tracking application for those frustrated with other solutions that are doing too much.",
     "devDependencies": {},
     "homepage": "https://github.com/shzdehmd/cs50x-final-project",
